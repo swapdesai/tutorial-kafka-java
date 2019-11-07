@@ -12,4 +12,4 @@ COPY target/tutorial-kafka-java-1.0.jar $APP_PATH/tutorial-kafka-java-1.0.jar
 WORKDIR $APP_PATH
 
 # run application with this command line 
-CMD ["java", "-cp", "tutorial-kafka-java-1.0.jar:dependency-jars/*", "com.pharosproduction.Consumer"]
+CMD ["java", "-cp", "tutorial-kafka-java-1.0.jar:dependency-jars/*", "com.test.Consumer"]

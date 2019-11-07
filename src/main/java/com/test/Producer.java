@@ -1,4 +1,4 @@
-package com.pharosproduction;
+package com.test;
 
 import java.util.Properties;
 import java.util.concurrent.ExecutionException;
